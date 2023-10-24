@@ -1,3 +1,21 @@
 .margin-bottom {
     margin-bottom: 20px;
 }
+
+
+.pagination {
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: #fff !important;   
+        background: #481bae;
+        padding: 6px 15px;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+}
