@@ -6,6 +6,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     a {
         color: #fff !important;   
         background: #481bae;
@@ -13,7 +16,6 @@
         font-size: 20px;
         font-weight: 400;
         text-align: center;
-        margin-right: 10px;
         text-decoration: none;
     }
 }

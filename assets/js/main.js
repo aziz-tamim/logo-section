@@ -72,5 +72,19 @@ $(document).ready(function () {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      breakpoints: {  
+        '1199': {
+          slidesPerView: 3,
+          spaceBetween: 20,
+      },
+        '767': {
+            slidesPerView: 3,
+            spaceBetween: 20,
+        },
+        '480': {
+          slidesPerView: 1,
+          spaceBetween: 20,},
+
+      },
   });
 });
