@@ -11,6 +11,22 @@ $(document).ready(function () {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    breakpoints: {  
+      '1199': {
+        slidesPerView: 4,
+        spaceBetween: 20,
+    },
+      '767': {
+          slidesPerView: 3,
+          spaceBetween: 20,
+      },
+      '480': {
+        slidesPerView: 2,
+        spaceBetween: 20,},
+      '@0': {
+        slidesPerView: 1,
+        spaceBetween: 10, },
+    },
   });
 
   var swiper = new Swiper(".mySwiper", {
@@ -20,6 +36,22 @@ $(document).ready(function () {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    breakpoints: {  
+      '1199': {
+        slidesPerView: 4,
+        spaceBetween: 20,
+    },
+      '767': {
+          slidesPerView: 3,
+          spaceBetween: 20,
+      },
+      '480': {
+        slidesPerView: 2,
+        spaceBetween: 20,},
+      '@0': {
+        slidesPerView: 1,
+        spaceBetween: 10, },
     },
   });
 
