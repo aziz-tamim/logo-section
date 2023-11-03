@@ -16,7 +16,7 @@ $(document).ready(function () {
         slidesPerView: 3,
         spaceBetween: 20,
     },
-      '767': {
+      '667': {
           slidesPerView: 2,
           spaceBetween: 20,
       },
