@@ -12,20 +12,17 @@ $(document).ready(function () {
       prevEl: ".swiper-button-prev",
     },
     breakpoints: {  
-      '1199': {
-        slidesPerView: 4,
+      '1024': {
+        slidesPerView: 3,
         spaceBetween: 20,
     },
       '767': {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 20,
       },
       '480': {
-        slidesPerView: 2,
-        spaceBetween: 20,},
-      '@0': {
         slidesPerView: 1,
-        spaceBetween: 10, },
+        spaceBetween: 20,},
     },
   });
 
@@ -38,20 +35,17 @@ $(document).ready(function () {
       clickable: true,
     },
     breakpoints: {  
-      '1199': {
-        slidesPerView: 4,
+      '1024': {
+        slidesPerView: 3,
         spaceBetween: 20,
     },
       '767': {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 20,
       },
       '480': {
-        slidesPerView: 2,
-        spaceBetween: 20,},
-      '@0': {
         slidesPerView: 1,
-        spaceBetween: 10, },
+        spaceBetween: 20,},
     },
   });
 
