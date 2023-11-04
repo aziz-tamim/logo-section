@@ -42,8 +42,7 @@
           }
       }
     }
-  }
-  
+}
   [class*="animation__"] {
       &::before {
           content: "";
@@ -57,7 +56,6 @@
           transition: all 0.5s;
       }
   }
-  
     .animation__zoom-in {
       &::before {
           transform: scale(0.5);
