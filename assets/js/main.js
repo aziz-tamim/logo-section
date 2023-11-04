@@ -23,6 +23,9 @@ $(document).ready(function () {
       '480': {
         slidesPerView: 1,
         spaceBetween: 20,},
+      '0': {
+        slidesPerView: 1,
+        spaceBetween: 20,},
     },
   });
 
@@ -44,6 +47,9 @@ $(document).ready(function () {
           spaceBetween: 20,
       },
       '480': {
+        slidesPerView: 1,
+        spaceBetween: 20,},
+      '0': {
         slidesPerView: 1,
         spaceBetween: 20,},
     },
@@ -78,7 +84,9 @@ $(document).ready(function () {
         '480': {
           slidesPerView: 1,
           spaceBetween: 20,},
-
+        '0': {
+          slidesPerView: 1,
+          spaceBetween: 20,},
       },
   });
 });
