@@ -400,9 +400,8 @@ body {
 .team4__item {
   border: 1px solid #ddd;
   transition: 0.3s;
-  background-color: #fff; }
-  .team4__item__main {
-    padding: 30px 25px; }
+  background-color: #fff;
+  padding: 30px 25px; }
   .team4__item__img {
     width: 50%;
     margin: 0 auto 20px;

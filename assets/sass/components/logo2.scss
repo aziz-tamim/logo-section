@@ -14,7 +14,6 @@ body {
             position: absolute;
             left: 0;
             right: 0;
-            // top: 0;
             bottom: 0;
             opacity: 0;
             background-color: #222;
@@ -68,7 +67,6 @@ body {
     
         }
     }
-    
     .blog__i {
         display: flex;
         text-align: center;
@@ -94,7 +92,6 @@ body {
         background-color: #481bae;
         color: #fff;
     }
-    
     .owl-dots {
         display: flex;
         align-items: center;
@@ -115,16 +112,14 @@ body {
         cursor: pointer;
         margin: 0 2px;
     }
-    
     .swiper-pagination-bullet {
         width: 15px;
         height: 15px;
     }
-
     .swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal {
         padding-bottom: 100px;
     }
-    
+
     .blog3__title {
         h1 {
             text-align: center;
